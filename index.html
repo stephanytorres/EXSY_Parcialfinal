@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es" data-livestyle-extension="available" class=" -webkit-">
+<head>
+	<!-- Codificación de caracteres > Caracteres especiales en Español -->
+	<meta charset="UTF-8">
+
+	<!-- Cargar estilo propio CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Diseño responsivo -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!-- Enlace a la librería de fuentes tipográficas: Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Ícono Title -->
+	<link rel="shortcut icon" href="img/LOGO E.png">
+	
+	<!-- Enlace a librería de íconos: FontAwesome Icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<!-- Enlace a librería desde CDN: PrefixFree -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<title>EXSY | Store</title>
+</head>
+<body>
+	<aside id="menu-movil">
+		<a href="#" id="abrir-menu">
+			<i class="fas fa-bars"></i>
+		</a>
+		<a href="#" id="cerrar-menu">
+			<i class="fas fa-times"></i>
+		</a>
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="catalogo.html">Productos</a>
+			<a href="about-us.html">Quiénes Somos</a>
+		</nav>
+	</aside>
+	<!-- Añadir número de Whatsapp ////////////////////////////////////////////////// -->
+	<aside id="boton-wp">
+		<a href="https://api.whatsapp.com/send?phone=573043339363" target="_blank">
+			<i class="fab fa-whatsapp"></i>
+		</a>
+	</aside>
+	<main>
+		<!-- Componente Slider -->
+		<section id="zona-slider">
+			<article class="slick-slider">
+				<figure id="slide-1"></figure>
+				<figure id="slide-2"></figure>
+				<figure id="slide-3"></figure>
+			</article>
+		</section>
+		<nav id="barra-nav">
+			<figure>
+				<a href="index.html"><img src="img/LOGO E.png"></a>
+			</figure>
+			<ul>
+				<a href="catalogo.html">
+					<li>Nuestros productos</li>
+				</a>
+				<a href="about-us.html">
+					<li>Quiénes somos</li>
+				</a>
+			</ul>
+		</nav>
+		<section id="margin-variable">
+			<article>
+				<h1>Nuevos productos</h1>
+				<figure><a data-fancybox="nuevos" href="img/C02.jpg"><img src="img/C02.jpg" alt=""></a></figure>
+				<figure><a data-fancybox="nuevos" href="img/P01.jpg"><img src="img/P01.jpg" alt=""></a></figure>
+				<figure><a data-fancybox="nuevos" href="img/Z02.jpg"><img src="img/Z02.jpg" alt=""></a></figure>
+			</article>
+			<article>
+				<h1>Últimas tendencias</h1>
+				<figure><a data-fancybox="tendencias" href="img/C03.jpg"><img src="img/C03.jpg" alt=""></a></figure>
+				<figure><a data-fancybox="tendencias" href="img/P03.jpg"><img src="img/P03.jpg" alt=""></a></figure>
+				<figure><a data-fancybox="tendencias" href="img/Z03.jpg"><img src="img/Z03.jpg" alt=""></a></figure>
+			</article>
+			<article id="boton-catalogo">
+				<a href="catalogo.html"><button>Conoce más productos de nuestro catálogo</button></a>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<section id="footer-sup">
+			<a href="index.html"><img src="img/LOGO E.png"></a>
+		</section>
+		<section id="footer-inf">
+			<p>&copy; Todos los derechos reservados</p>
+		</section>
+	</footer>
+
+	<!-- Espacio para Javascript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+	<!-- Llamado a Slick Slider -->
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+	<!-- FancyApps.com desde CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+	<!-- Llamado a js propio -->
+	<script src="script.js"></script>
+
+</body>
+</html>
